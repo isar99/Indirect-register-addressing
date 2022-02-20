@@ -1,0 +1,11 @@
+;<Register indirect addressing>
+
+jmp start
+
+;data
+
+;code
+start: nop
+LDAX B
+STAX D
+hlt
